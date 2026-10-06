@@ -6,23 +6,23 @@ A high-throughput, event-driven MERN-stack decision support engine designed to i
 
 ---
 
-## 📋 Product Overview
+## Product Overview
 
 Traditional logistics tracking software operates reactively, storing shipment scans, warehouse records, and transit exceptions in isolated data silos. This architectural fragmentation makes it impossible to detect how a delay in one warehouse cascades through an entire network.
 
 **Our Solution:** A unified, in-memory directed graph network that transforms fragmented transactional data into actionable intelligence for operations managers. In 3 seconds, identify exactly which delays matter and how much they'll cost.
 
 ### Key Problems Solved
-- ❌ **Reactive tracking:** Warehouses see scans only after they happen
-- ✅ **Predictive delays:** Forecast cascading delays across network segments
-- ❌ **Data silos:** Route data, warehouse queues, and transit events live in different systems  
-- ✅ **Unified graph:** Real-time reconstruction of network topology and bottlenecks
-- ❌ **No business context:** Dashboard shows metrics, not business impact
-- ✅ **Cost-aware decisions:** See SLA breach penalties vs. reroute costs side-by-side
+-  **Reactive tracking:** Warehouses see scans only after they happen
+-  **Predictive delays:** Forecast cascading delays across network segments
+-  **Data silos:** Route data, warehouse queues, and transit events live in different systems  
+-  **Unified graph:** Real-time reconstruction of network topology and bottlenecks
+-  **No business context:** Dashboard shows metrics, not business impact
+-  **Cost-aware decisions:** See SLA breach penalties vs. reroute costs side-by-side
 
 ---
 
-## 🎨 Wireframes & UX Design
+## Wireframes & UX Design
 
 **Figma Design System:** [View Full Design](https://www.figma.com/design/TEEGoO5d22YLtx999rUlY2/Sprint-1?node-id=1-2&t=Uzy6AMA08ga1pfVB-1)
 
@@ -35,7 +35,7 @@ Key screens designed:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js 18+** and **npm 9+**
@@ -99,7 +99,7 @@ Navigate to `http://localhost:5173` and explore the dashboard with simulated rea
 
 ---
 
-## 📊 Data Source & Processing
+## Data Source & Processing
 
 ### Source Data
 The platform processes **real logistics transaction data** with the following key entities:
@@ -131,7 +131,7 @@ Each column is mapped to business meaning:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Overview & Core Innovations
 
@@ -199,7 +199,7 @@ S82_Logistics_Sprint1/
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 ### 1. **Multi-Leg Shipment Reconstruction**
 Ingests fragmented tracking points and rebuilds chronological journeys across warehouses and transit routes.
@@ -240,7 +240,7 @@ Different views for different stakeholders:
 
 ---
 
-## 📈 Key Business Insights
+## Key Business Insights
 
 From analyzing **500K+ logistics events**, we discovered:
 
@@ -252,7 +252,7 @@ From analyzing **500K+ logistics events**, we discovered:
 
 ---
 
-## 🧪 Demo & Testing
+## Demo & Testing
 
 ### Try the Live Demo
 Navigate to the [live demo](https://creative-frangipane-cdbe43.netlify.app/) to:
@@ -275,7 +275,7 @@ cd analytics && python -m pytest tests/
 
 ---
 
-## 📝 Product Requirements Document
+## Product Requirements Document
 
 **[View Full PRD](./PRD.md)**
 
@@ -286,7 +286,7 @@ High-level requirements:
 
 ---
 
-## 🤝 Team Contributions
+## Team Contributions
 
 This project is a **team effort** with **10+ pull requests per member**:
 
@@ -299,7 +299,7 @@ See [Pull Requests](https://github.com/john-git7/S82_Logistics_Sprint1/pulls) fo
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Frontend (Deployed to Netlify)
 ```bash
@@ -317,18 +317,13 @@ docker-compose up -d
 
 ---
 
-## 📞 Support & Questions
+## Support & Questions
 
 For issues, feature requests, or collaboration:
 - Open an [Issue](https://github.com/john-git7/S82_Logistics_Sprint1/issues)
 - Check [Discussions](https://github.com/john-git7/S82_Logistics_Sprint1/discussions)
 - Review [PRD.md](./PRD.md) for project scope
 
----
-
-## 📄 License
-
-[Add your license here]
 
 ---
 
